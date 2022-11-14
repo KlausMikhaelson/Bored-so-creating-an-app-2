@@ -7,10 +7,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 50%;
+    left: 50%;
     margin: 5%;
+    box-shadow: -7px 4px 28px -3px #3bd9d9;
+    border-radius: 20px;
+    max-width: 1000px;
 }
 
 .profile-image img{
     border-radius: 50%;
     height: 150px;
+    margin: 5%;
+}
+
+.followers {
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.following {
+    font-size: 1.5rem;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
